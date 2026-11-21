@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.displayName"
+msgstr "BIJPHGR Publication Certificate"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.description"
+msgstr "Issues a PDF Certificate of Publication when an article becomes publicly available and e-mails it to the corresponding author."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.incomplete"
+msgstr "Setup incomplete."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.incompleteHelp"
+msgstr "No certificate will be issued or e-mailed until the signatory name and the publisher name are set. Articles published in the meantime are held and released automatically when you save complete settings."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.issuer"
+msgstr "Issuer and signatory"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.publisherName"
+msgstr "Publisher name"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.publisherNameHelp"
+msgstr "Printed on the certificate. If left empty, the journal's publisher setting is used."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.signatoryName"
+msgstr "Signatory name"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.signatoryTitle"
+msgstr "Signatory title"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.signature"
+msgstr "Signature image"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.signatureHelp"
+msgstr "PNG or JPEG, up to 1 MB. A transparent PNG works best. Stored privately, never publicly accessible."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.removeSignature"
+msgstr "Remove the current signature image"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.numbering"
+msgstr "Numbering and links"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.prefix"
+msgstr "Certificate number prefix"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.downloadDays"
+msgstr "Download link validity (days)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.autoRevise"
+msgstr "Automatically issue a new certificate revision when the article's published metadata is corrected (the earlier version is kept and the change is audited)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.email"
+msgstr "Notification e-mail"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.emailHelp"
+msgstr "Available variables: {$authorName}, {$articleTitle}, {$articleId}, {$allAuthors}, {$journalName}, {$journalUrl}, {$volume}, {$issue}, {$publicationDate}, {$doi}, {$articleUrl}, {$certificateNumber}, {$certificateUrl}, plus {$issueLine} and {$doiLine}, which print a whole line only when a value exists."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.emailSubject"
+msgstr "Subject"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.settings.emailBody"
+msgstr "Body (HTML)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.title"
+msgstr "Certificate of Publication verification"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.notFound"
+msgstr "No certificate matches this link. Check that you scanned the whole QR code or copied the whole address."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.valid"
+msgstr "This certificate is genuine and the article is currently published."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.unavailable"
+msgstr "This certificate was issued by the journal, but the article is not currently publicly available."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.correctionPending"
+msgstr "The article's published details have been corrected since this certificate was issued. The details below show the current published record."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.certificateNumber"
+msgstr "Certificate number"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.journal"
+msgstr "Journal"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.article"
+msgstr "Article"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.authors"
+msgstr "Authors"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.issue"
+msgstr "Issue"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.publicationDate"
+msgstr "Publication date"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.articleLink"
+msgstr "Article link"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.issued"
+msgstr "Certificate issued"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.revisions"
+msgstr "Revisions"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.verify.revisionLine"
+msgstr "Revision {$version}, issued {$date}"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.title"
+msgstr "Publication Certificates"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.menu"
+msgstr "Publication Certificates"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.navLabel"
+msgstr "Certificate dashboard navigation"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.navList"
+msgstr "All certificates"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.navSettings"
+msgstr "Plugin settings"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.navOjs"
+msgstr "Back to OJS"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.openSettings"
+msgstr "Open plugin settings"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.summary"
+msgstr "Summary"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.stat.total"
+msgstr "Certificates"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.stat.sent"
+msgstr "E-mails sent"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.stat.attention"
+msgstr "Need attention"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.stat.failed"
+msgstr "E-mail failed"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.stat.waiting"
+msgstr "Waiting to send"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.stat.withdrawn"
+msgstr "Withdrawn"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.bulk.retryFailed"
+msgstr "Retry {$n} failed e-mail(s)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.bulk.releaseHeld"
+msgstr "Issue {$n} held certificate(s)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.confirm.retryFailed"
+msgstr "Send the notification again for {$n} certificate(s) whose e-mail failed? Each author receives one new e-mail with a new download link."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.confirm.resend"
+msgstr "Send a new e-mail to {$email}? The download link in the earlier e-mail will stop working."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.confirm.regenerate"
+msgstr "Create a new version of this certificate from the article's current details? Earlier versions are kept and no e-mail is sent."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.search"
+msgstr "Search"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.searchPlaceholder"
+msgstr "Certificate number, title, author, e-mail or article ID"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.status"
+msgstr "Certificate"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.email"
+msgstr "E-mail"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.any"
+msgstr "Any"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.attention"
+msgstr "Needs attention only"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.apply"
+msgstr "Filter"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.filter.reset"
+msgstr "Reset"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.status.valid"
+msgstr "Valid"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.status.needs_revision"
+msgstr "Needs revision"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.status.withdrawn"
+msgstr "Withdrawn"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.status.held"
+msgstr "Not issued yet"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.email.pending"
+msgstr "Waiting"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.email.queued"
+msgstr "Sending"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.email.sent"
+msgstr "Sent"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.email.failed"
+msgstr "Failed"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.empty.none"
+msgstr "No certificates yet."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.empty.noneHelp"
+msgstr "They appear here automatically when an article is published."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.empty.noMatch"
+msgstr "No certificates match these filters."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.resultCount"
+msgstr "{$n} certificate(s)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.col.certificate"
+msgstr "Certificate"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.col.article"
+msgstr "Article"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.col.recipient"
+msgstr "Corresponding author"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.col.published"
+msgstr "Published"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.col.status"
+msgstr "Certificate"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.col.email"
+msgstr "E-mail"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.col.actions"
+msgstr "Actions"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.versionShort"
+msgstr "Version {$v}"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.articleGone"
+msgstr "(article no longer available)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.submissionId"
+msgstr "Article ID {$id}"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.noRecipientShort"
+msgstr "No corresponding author set"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.open"
+msgstr "Open"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.pagination"
+msgstr "Pages"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.prev"
+msgstr "Previous"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next"
+msgstr "Next"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.pageOf"
+msgstr "Page {$page} of {$pages}"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.backToList"
+msgstr "All certificates"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.section.article"
+msgstr "Article"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.section.certificate"
+msgstr "Certificate"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.section.versions"
+msgstr "Versions"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.section.log"
+msgstr "Activity"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.section.actions"
+msgstr "Actions"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.submission"
+msgstr "Article ID"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.issue"
+msgstr "Issue"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.published"
+msgstr "Published"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.recipient"
+msgstr "Corresponding author"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.number"
+msgstr "Number"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.version"
+msgstr "Version"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.generated"
+msgstr "Generated"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.emailSent"
+msgstr "E-mail sent"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.linkExpiry"
+msgstr "Download link valid until"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.verifyUrl"
+msgstr "Verification page"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.reason"
+msgstr "Reason"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.by"
+msgstr "By"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.when"
+msgstr "When"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.f.event"
+msgstr "Event"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.attempts"
+msgstr "{$n} attempt(s)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.expired"
+msgstr "Expired"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.current"
+msgstr "Current"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.noVersions"
+msgstr "No PDF has been generated yet."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.action.resend"
+msgstr "Resend e-mail"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.action.resendHelp"
+msgstr "Sends the corresponding author a fresh e-mail with a new download link. The previous link stops working."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.action.regenerate"
+msgstr "Regenerate certificate"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.action.regenerateHelp"
+msgstr "Creates a new version using the article's current details and the current signature. Earlier versions are kept. No e-mail is sent."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.managerOnly"
+msgstr "Only journal managers and administrators can resend or regenerate certificates."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.link.pdf"
+msgstr "Download the certificate (PDF)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.link.verify"
+msgstr "Open the public verification page"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.link.article"
+msgstr "View the published article"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.link.workflow"
+msgstr "Open the article in the OJS workflow"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.label"
+msgstr "What now?"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.articleGone"
+msgstr "The article this certificate belongs to can no longer be found. Nothing can be sent or regenerated."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.withdrawn"
+msgstr "The article is not publicly available, so the certificate is withdrawn and downloads are blocked. Publishing the article again restores it automatically."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.held"
+msgstr "The certificate has not been issued yet. Check that the signatory name and publisher name are set in the plugin settings; it is issued automatically afterwards."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.noRecipient"
+msgstr "No corresponding author is set on this article. Open the article, set a contact on the publication, then use Resend e-mail."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.revisionComing"
+msgstr "The article's details changed. A new certificate version is being generated automatically."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.revisionManual"
+msgstr "The article's details changed since this certificate was issued. Use Regenerate certificate to update it."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.emailFailed"
+msgstr "The notification e-mail could not be delivered. Check the reason below, fix it if needed, then use Resend e-mail."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.sending"
+msgstr "The e-mail is being sent right now. Check again in a minute."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.waiting"
+msgstr "The e-mail is waiting in the queue and will be sent shortly. If it stays here, check that the OJS job queue is running."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.linkExpired"
+msgstr "The e-mail was sent, but its download link has expired. Use Resend e-mail if the author still needs it."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.next.ok"
+msgstr "Nothing to do. The certificate is valid and the author has been e-mailed."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.queued"
+msgstr "E-mail queued. It is normally delivered within a minute."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.regenQueued"
+msgstr "A new certificate version is being generated."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.retryDone"
+msgstr "{$n} e-mail(s) queued for sending."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.releaseDone"
+msgstr "{$n} certificate(s) released for issuing."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.notFound"
+msgstr "That certificate could not be found."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.withdrawn"
+msgstr "The certificate is withdrawn because its article is not published."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.inProgress"
+msgstr "An e-mail is already being sent for this certificate. Try again in a few minutes."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.noRecipient"
+msgstr "No corresponding author with a valid e-mail address is set on the article."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.notConfigured"
+msgstr "Complete the plugin settings (signatory name and publisher name) first."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.notPublished"
+msgstr "The article is not currently published."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.noFile"
+msgstr "No certificate has been generated yet."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.nothingToDo"
+msgstr "Nothing needed doing."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.flash.badRequest"
+msgstr "The request could not be completed."
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.record_created"
+msgstr "Certificate record created"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.queued"
+msgstr "Queued for issuing"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.generated"
+msgstr "Certificate generated"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.revised"
+msgstr "New version generated"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.email_sent"
+msgstr "E-mail sent"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.email_failed"
+msgstr "E-mail failed"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.resend_requested"
+msgstr "Resend requested"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.regenerate_requested"
+msgstr "Regeneration requested"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.withdrawn"
+msgstr "Withdrawn (article unpublished)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.republished"
+msgstr "Restored (article republished)"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.metadata_changed"
+msgstr "Article details changed"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.held_configuration"
+msgstr "Held: plugin settings incomplete"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.skipped_ineligible"
+msgstr "Skipped: article not published"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.job_failed"
+msgstr "Background job failed"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.downloaded"
+msgstr "Downloaded by the author"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.admin_downloaded"
+msgstr "Downloaded by an editor"
+
+msgid "plugins.generic.bijphgrPublicationCertificate.dash.event.integrity_failure"
+msgstr "File integrity check failed"
